@@ -356,7 +356,7 @@
 
 /* object recognition */
 .object-recognition-container {
-  height: 90px;
+  height: 96px;
   width: 190px;
   margin: auto;
   padding: 0px;
@@ -367,17 +367,40 @@
   text-align: left;
   position: relative;
   float: left;
+  /*background-color: orange;*/
 }
 
 .object-recognition-visual {
   position: relative;
+  width: 70px;
+  height: 92px;
+  float: left;
+  margin: 2px;
+  text-align:center;
+  /*background-color: purple;*/
+}
+
+.object-recognition-visual-main {
+  /*background-color: green;*/
+  font-size: 40px;
+  height:70px;
+  padding-top: 7px;
+
+  /*
+    position: relative;
   width: 70px;
   height: 70px;
   float: left;
   margin: 2px;
   margin-top:10px;
   text-align:center;
-  /*max font-size: around 50px*/
+  /*max font-size: around 50px
   font-size:40px;
-  padding-top:7px;
+  padding-top:7px;*/
+}
+
+.object-recognition-visual-sub {
+  /*background-color: pink;*/
+  font-size: 15px;
+  margin: 0px;
 }
